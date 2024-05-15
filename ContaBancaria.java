@@ -14,7 +14,7 @@ public class ContaBancaria {
     }
 
     public boolean sacar(double valor){
-        if (saldo<=valor){
+        if (saldo>=valor){
             saldo-=valor;
             return true;
         }
